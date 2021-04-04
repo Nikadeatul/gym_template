@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry's Gym</title>
+    
+</head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="css/style.css">
+ <style>
+    body{
+        font-family: 'Baloo Da 2', cursive;
+         margin: 0px;
+         padding: 0px;
+         background-image: url('bg3.png');
+         background-repeat: no-repeat;
+         background-size: cover;
+     }
+     .left{
+        position: absolute;
+         left: 60px;
+         top: 10px;
+         display: inline-block;
+        /*border: 2px solid red;*/
+     }
+     .left div{
+         text-align: center;
+     }
+     .mid{
+         display: block;
+         width: 39%;
+         margin: 20px auto;
+         /*border: 2px solid royalblue;*/
+
+     }
+     .right{
+         position: absolute;
+         right: 34px;
+         top: 20px;
+         display: inline-block;
+        /*border: 2px solid greenyellow;*/
+
+     }
+     .navbar {
+         display: inline-block;
+     }
+     .navbar li {
+         font-size: 18px;
+         display: inline-block;
+     }
+     .navbar li a{
+         color: grey;
+         text-decoration: none;
+         padding: 24px 23px;
+     }
+     .navbar li a:hover, .navbar li a.active{
+         text-decoration: underline;
+         color: blue;
+     }
+     .left img{
+         
+         width: 110px;
+         filter: invert(100%);
+
+     }
+     .btn {
+        font-family: 'Baloo Da 2', cursive;
+         text-color: white;
+         margin: 0px 9px;
+         backgroung-color: black;
+         padding: 4px 14px;
+         border: 2px solid grey;
+         border-radius: 10px;
+         font-size: 15px;
+         cursor: pointer;
+     }
+     .btn:hover{
+
+        background-color:grey ;
+     }
+     .container{
+         border: 3px solid white;
+         margin: 106px 80px;
+         padding: 40px;
+         width: 36%;
+         border-radius: 28px;
+         color: honeydew;
+         
+     }
+     .form-group input{
+         font-family: 'Baloo Da 2', cursive;
+         text-align: center;
+         display: block;
+         width: 508px;
+         padding: 1px;
+         border: 2px solid black;
+         margin: 11px auto;
+         font-size: 25px;
+         border-radius: 8px;
+     }
+     .container h1{
+         text-align: center;
+     }
+     .container button {
+
+        display: block;
+        width:23%;
+        margin: auto;
+     }
+ </style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="logo.png" alt="">
+            <div>Harry Fitness</div>
+
+        </div>
+        <div class="mid">
+         <ul class="navbar">
+             <li><a href="#" class="active">Home</a> </li>
+             <li><a href="#">About Us</a> </li>
+             <li><a href="#">Trainings</a> </li>
+             <li><a href="#">Contact Us</a> </li>
+         </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">Call Now </button>
+            <button class="btn">Email Us</button>
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>Join The Best Gym of Akola </h1>
+        <form action="nocation php">
+
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Age">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Gender">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Mobile Number">
+                </div>
+                <button class="btn">submit</button>
+        </form>
+    </div>
+    
+</body>
+</html>
